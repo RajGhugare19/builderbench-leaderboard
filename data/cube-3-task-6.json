@@ -13,7 +13,8 @@
       "std_final_success_rate": 0.0,
       "std_final_progress": 0.0,
       "mean_num_episodes": 1.0,
-      "std_num_episodes": 0.0
+      "std_num_episodes": 0.0,
+      "num_trials": 3
     },
     {
       "agent_name": "reflexion",
@@ -21,6 +22,37 @@
       "website_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3-flash-preview",
       "date": "2026-03-21",
       "num_seeds": 1,
+      "level_id": "cube-3-task-6",
+      "mean_final_success_rate": 1.0,
+      "mean_final_progress": 1.0,
+      "std_final_success_rate": 0.0,
+      "std_final_progress": 0.0,
+      "mean_num_episodes": 2.0,
+      "std_num_episodes": 0.0,
+      "num_trials": 3
+    },
+    {
+      "agent_name": "codex",
+      "model_id": "gpt-6-astra",
+      "website_url": "https://openai.com/index/gpt-6-astra/",
+      "date": "2026-09-25",
+      "num_seeds": 1,
+      "num_trials": 100,
+      "level_id": "cube-3-task-6",
+      "mean_final_success_rate": 1.0,
+      "mean_final_progress": 1.0,
+      "std_final_success_rate": 0.0,
+      "std_final_progress": 0.0,
+      "mean_num_episodes": 1.0,
+      "std_num_episodes": 0.0
+    },
+    {
+      "agent_name": "claude code",
+      "model_id": "claude-opus-4-8",
+      "website_url": "https://www.anthropic.com/news/claude-opus-4-8",
+      "date": "2026-09-25",
+      "num_seeds": 1,
+      "num_trials": 100,
       "level_id": "cube-3-task-6",
       "mean_final_success_rate": 1.0,
       "mean_final_progress": 1.0,
@@ -41,7 +73,8 @@
       "std_final_success_rate": 0.0,
       "std_final_progress": 0.0,
       "mean_num_episodes": 1.0,
-      "std_num_episodes": 0.0
+      "std_num_episodes": 0.0,
+      "num_trials": 3
     }
   ]
 }

@@ -2,6 +2,21 @@
   "level_id": "cube-15-task-1",
   "entries": [
     {
+      "agent_name": "codex",
+      "model_id": "gpt-6-astra",
+      "website_url": "https://openai.com/index/gpt-6-astra/",
+      "date": "2026-09-25",
+      "num_seeds": 1,
+      "num_trials": 100,
+      "level_id": "cube-15-task-1",
+      "mean_final_success_rate": 1.0,
+      "mean_final_progress": 1.0,
+      "std_final_success_rate": 0.0,
+      "std_final_progress": 0.0,
+      "mean_num_episodes": 23.0,
+      "std_num_episodes": 0.0
+    },
+    {
       "agent_name": "cot",
       "model_id": "gpt-5.2-2025-12-11",
       "website_url": "https://openai.com/index/introducing-gpt-5-2/",
@@ -13,7 +28,8 @@
       "std_final_success_rate": 0.0,
       "std_final_progress": 0.0,
       "mean_num_episodes": 1.0,
-      "std_num_episodes": 0.0
+      "std_num_episodes": 0.0,
+      "num_trials": 3
     },
     {
       "agent_name": "reflexion",
@@ -27,7 +43,8 @@
       "std_final_success_rate": 0.0,
       "std_final_progress": 0.0,
       "mean_num_episodes": 3.0,
-      "std_num_episodes": 0.0
+      "std_num_episodes": 0.0,
+      "num_trials": 3
     },
     {
       "agent_name": "reflexion",
@@ -41,6 +58,22 @@
       "std_final_success_rate": 0.0,
       "std_final_progress": 0.0,
       "mean_num_episodes": 3.0,
+      "std_num_episodes": 0.0,
+      "num_trials": 3
+    },
+    {
+      "agent_name": "claude code",
+      "model_id": "claude-opus-4-8",
+      "website_url": "https://www.anthropic.com/news/claude-opus-4-8",
+      "date": "2026-09-25",
+      "num_seeds": 1,
+      "num_trials": 100,
+      "level_id": "cube-15-task-1",
+      "mean_final_success_rate": 0.0,
+      "mean_final_progress": 0.4,
+      "std_final_success_rate": 0.0,
+      "std_final_progress": 0.0,
+      "mean_num_episodes": 7.0,
       "std_num_episodes": 0.0
     }
   ]
